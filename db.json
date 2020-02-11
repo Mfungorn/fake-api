@@ -1,6 +1,7 @@
 {
 "applications": [
         {
+            "id": 1,
             "applicationId": 1,
             "applicationCode": "code 1",
             "liveCode": "livecode",
@@ -34,6 +35,7 @@
             ]
         },
         {
+            "id": 2,
             "applicationId": 2,
             "applicationCode": "code 2",
             "liveCode": "livecode",
