@@ -1,40 +1,70 @@
 {
-  "cards": [
-    {
-      "id": 111111111,
-      "country": "Italy",
-      "region": "Aosta Valley",
-      "sub_region": "Alto Adige Santa Madda",
-      "classification": "REGIT-DOC",
-      "vintage": 2019,
-      "wine_name": "Extra Pinor Noir",
-      "producer_name": "Extra Special Noir",
-      "color": "Rose",
-      "style": "Dry 17-32 g/l"
-    },
-    {
-      "id": 111111112,
-      "country": "Spain",
-      "region": "Rioja",
-      "sub_region": "",
-      "classification": "REGIT-DOC",
-      "vintage": 2019,
-      "wine_name": "Temprano",
-      "producer_name": "",
-      "color": "Red",
-      "style": ""
-    }
-  ],
-  "events": [
-    {
-      "id": 1,
-      "name": "Decanter",
-      "date": 2019
-    },
-    {
-      "id": 2,
-      "name": "Decanter",
-      "date": 2018
-    }
-  ]
+"applications": [
+        {
+            "applicationId": 1,
+            "applicationCode": "code 1",
+            "liveCode": "livecode",
+            "judgeTeam": "team 1",
+            "fieldvalues": [
+                {
+                    "type": 0,
+                    "name": "General field 1",
+                    "value": "value 1"
+                },
+                {
+                    "type": 1,
+                    "name": "List field 1",
+                    "value": "value 1",
+                    "values": [
+                        "value 1",
+                        "value 2",
+                        "value 3"
+                    ]
+                },
+                {
+                    "type": 0,
+                    "name": "General field 2",
+                    "value": "value 2"
+                },
+                {
+                    "type": 0,
+                    "name": "General field 3",
+                    "value": "value 3"
+                }
+            ]
+        },
+        {
+            "applicationId": 2,
+            "applicationCode": "code 2",
+            "liveCode": "livecode",
+            "judgeTeam": "team 2",
+            "fieldvalues": [
+                {
+                    "type": 0,
+                    "name": "General field 1",
+                    "value": "value 1"
+                },
+                {
+                    "type": 1,
+                    "name": "List field 1",
+                    "value": "value 1",
+                    "values": [
+                        "value 1",
+                        "value 2",
+                        "value 3"
+                    ]
+                },
+                {
+                    "type": 0,
+                    "name": "General field 2",
+                    "value": "value 2"
+                },
+                {
+                    "type": 0,
+                    "name": "General field 3",
+                    "value": "value 3"
+                }
+            ]
+        }
+    ]
 }
