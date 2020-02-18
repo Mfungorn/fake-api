@@ -8,12 +8,12 @@
             "judgeTeam": "team 1",
             "fieldvalues": [
                 {
-                    "type": 0,
-                    "name": "General field 1",
+                    "type": "TextField",
+                    "name": "Text field 1",
                     "value": "value 1"
                 },
                 {
-                    "type": 1,
+                    "type": "ListField",
                     "name": "List field 1",
                     "value": "value 1",
                     "values": [
@@ -23,14 +23,19 @@
                     ]
                 },
                 {
-                    "type": 0,
-                    "name": "General field 2",
-                    "value": "value 2"
+                    "type": "ListField",
+                    "name": "List field 2",
+                    "value": { "id": 1, "name": "Country 1" },
+                    "values": [
+                        { "id": 1, "name": "Country 1" },
+                        { "id": 2, "name": "Country 2" },
+                        { "id": 3, "name": "Country 3" }
+                    ]
                 },
                 {
-                    "type": 0,
-                    "name": "General field 3",
-                    "value": "value 3"
+                    "type": "TextField",
+                    "name": "Text field 2",
+                    "value": "value 2"
                 }
             ]
         },
@@ -42,29 +47,9 @@
             "judgeTeam": "team 2",
             "fieldvalues": [
                 {
-                    "type": 0,
-                    "name": "General field 1",
+                    "type": "TextField",
+                    "name": "Text field 1",
                     "value": "value 1"
-                },
-                {
-                    "type": 1,
-                    "name": "List field 1",
-                    "value": "value 1",
-                    "values": [
-                        "value 1",
-                        "value 2",
-                        "value 3"
-                    ]
-                },
-                {
-                    "type": 0,
-                    "name": "General field 2",
-                    "value": "value 2"
-                },
-                {
-                    "type": 0,
-                    "name": "General field 3",
-                    "value": "value 3"
                 }
             ]
         }
