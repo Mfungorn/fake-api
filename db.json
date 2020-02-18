@@ -8,14 +8,39 @@
             "judgeTeam": "team 1",
             "fieldvalues": [
                 {
-                    "type": "TextField",
-                    "name": "Text field 1",
-                    "value": "value 1"
+                    "type": "Text",
+                    "name": "producer",
+                    "value": "Producer"
                 },
                 {
-                    "type": "ListField",
-                    "name": "List field 1",
-                    "value": "value 1",
+                    "type": "Text",
+                    "name": "wineName",
+                    "value": "Wine Name"
+                },
+                {
+                    "type": "EntityList",
+                    "name": "region",
+                    "value": { "id": 3, "name": "Reg 3" },
+                    "values": [
+                        { "id": 1, "name": "Reg 1" },
+                        { "id": 2, "name": "Reg 2" },
+                        { "id": 3, "name": "Reg 3" }
+                    ]
+                },
+                {
+                    "type": "EntityList",
+                    "name": "subRegion",
+                    "value": { "id": 3, "name": "SubReg 3" },
+                    "values": [
+                        { "id": 1, "name": "SubReg 1" },
+                        { "id": 2, "name": "SubReg 2" },
+                        { "id": 3, "name": "SubReg 3" }
+                    ]
+                },
+                {
+                    "type": "DropDown",
+                    "name": "classification",
+                    "value": "value 2",
                     "values": [
                         "value 1",
                         "value 2",
@@ -23,19 +48,14 @@
                     ]
                 },
                 {
-                    "type": "ListField",
-                    "name": "List field 2",
-                    "value": { "id": 1, "name": "Country 1" },
+                    "type": "DropDown",
+                    "name": "vintage",
+                    "value": "1337",
                     "values": [
-                        { "id": 1, "name": "Country 1" },
-                        { "id": 2, "name": "Country 2" },
-                        { "id": 3, "name": "Country 3" }
+                        "228",
+                        "1337",
+                        "666"
                     ]
-                },
-                {
-                    "type": "TextField",
-                    "name": "Text field 2",
-                    "value": "value 2"
                 }
             ]
         },
@@ -47,9 +67,14 @@
             "judgeTeam": "team 2",
             "fieldvalues": [
                 {
-                    "type": "TextField",
-                    "name": "Text field 1",
-                    "value": "value 1"
+                    "type": "Text",
+                    "name": "producer",
+                    "value": "Producer"
+                },
+                {
+                    "type": "Text",
+                    "name": "wineName",
+                    "value": "Wine Name"
                 }
             ]
         }
