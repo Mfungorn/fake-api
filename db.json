@@ -6,6 +6,7 @@
             "applicationCode": "code 1",
             "liveCode": "livecode",
             "judgeTeam": "team 1",
+            "isFinalCheckCompleted": true,
             "fieldvalues": [
                 {
                     "type": "Text",
@@ -65,6 +66,7 @@
             "applicationCode": "code 2",
             "liveCode": "livecode",
             "judgeTeam": "team 2",
+            "isFinalCheckCompleted": false,
             "fieldvalues": [
                 {
                     "type": "Text",
