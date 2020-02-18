@@ -3,7 +3,7 @@
         {
             "id": 1,
             "applicationId": 1,
-            "applicationCode": "code 1",
+            "applicationCode": "1",
             "liveCode": "livecode",
             "judgeTeam": "team 1",
             "isFinalCheckCompleted": true,
@@ -63,7 +63,7 @@
         {
             "id": 2,
             "applicationId": 2,
-            "applicationCode": "code 2",
+            "applicationCode": "2",
             "liveCode": "livecode",
             "judgeTeam": "team 2",
             "isFinalCheckCompleted": false,
